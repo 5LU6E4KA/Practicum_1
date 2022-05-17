@@ -1,0 +1,24 @@
+﻿<Page x:Class="Practicum_1.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Practicum_1"
+      mc:Ignorable="d" 
+      d:DesignHeight="359" d:DesignWidth="500"
+      Title="Page1">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/1621756101_19-phonoteka_org-p-fon-s-formulami-po-matematike-19.jpg"/>
+        </Grid.Background>
+
+        <Button Content="Сфера" HorizontalAlignment="Center" VerticalAlignment="Top" Height="38" Width="159" Click="Sfera_Click" Margin="0,32,0,0" FontSize="14" FontStyle="Italic" FontWeight="Bold" />
+        <Button Content="Конус" HorizontalAlignment="Center" Margin="0,93,0,0" VerticalAlignment="Top" Height="37" Width="160" Click="Konus_Click" FontWeight="Bold" FontSize="14" FontStyle="Italic" />
+        <Button Content="Цилиндр" HorizontalAlignment="Center" Margin="0,216,0,0" VerticalAlignment="Top" Height="36" Width="160" Click="Cilindr_Click" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <Button Content="Усеченный конус" HorizontalAlignment="Center" VerticalAlignment="Top" Height="39" Width="160" Click="Minikonus_Click" Margin="0,153,0,0" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <Button Content="Выход" Background ="Aqua" HorizontalAlignment="Center" Margin="0,272,0,0" VerticalAlignment="Top" Height="28" Width="82" Click="Out_Click" IsCancel="True" FontWeight="Bold" FontSize="14" FontStyle="Italic"/>
+
+    </Grid>
+
+</Page>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1621756101_19-phonoteka_org-p-fon-s-formulami-po-matematike-19.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1621756101_19-phonoteka_org-p-fon-s-formulami-po-matematike-19.jpg" />
+  </ItemGroup>
+
+</Project>
