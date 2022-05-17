@@ -18,13 +18,13 @@
         <Label Content="Округление = " HorizontalAlignment="Left" Margin="531,118,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" RenderTransformOrigin="-1.543,-0.349"/>
         <Button Content="Вычислить" HorizontalAlignment="Left" Height="40" Margin="615,164,0,0" VerticalAlignment="Top" Width="143" Click="Rasschet" Background="White" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
         <Label Content="S осн.= " HorizontalAlignment="Left" Margin="531,227,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic" FontSize="14"/>
-        <Label Content="S бок.= " HorizontalAlignment="Left" Margin="531,268,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
-        <Label Content="S общ.= " HorizontalAlignment="Left" Margin="531,310,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
-        <Label Content="V = " HorizontalAlignment="Left" Margin="531,353,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="-0.162,0.384"/>
-        <TextBox x:Name="Sboc" HorizontalAlignment="Left" Height="29" Margin="615,268,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
+        <Label Content="S бок.= " HorizontalAlignment="Left" Margin="531,261,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="S общ.= " HorizontalAlignment="Left" Margin="531,295,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="V = " HorizontalAlignment="Left" Margin="531,329,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="-0.162,0.384"/>
+        <TextBox x:Name="Sboc" HorizontalAlignment="Left" Height="29" Margin="615,261,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
         <TextBox x:Name="Sosn" HorizontalAlignment="Left" Height="29" Margin="615,227,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
-        <TextBox x:Name="Sobch" HorizontalAlignment="Left" Height="29" Margin="615,310,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
-        <TextBox x:Name="Obem" HorizontalAlignment="Left" Height="29" Margin="615,353,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
+        <TextBox x:Name="Sobch" HorizontalAlignment="Left" Height="29" Margin="615,295,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
+        <TextBox x:Name="Obem" HorizontalAlignment="Left" Height="29" Margin="615,329,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
         <Image Source="https://cf2.ppt-online.org/files2/slide/4/4IH6ykoRdGcpMnzqiQEZ2gabX1eJNrUYvtxm7T/slide-13.jpg" Height="353" VerticalAlignment="Top" Margin="-34,0,291,0"/>
     </Grid>
 </Page>

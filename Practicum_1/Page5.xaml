@@ -12,23 +12,23 @@
         <Button Content="Назад" HorizontalAlignment="Left" Margin="34,368,0,0" VerticalAlignment="Top" Click="Back_Click" Background="AliceBlue" Height="28" Width="100" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
         <TextBox Name="RadiusN" HorizontalAlignment="Left" Height="29" Margin="615,48,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="RadiusBox"/>
         <Label Content="R ниж. = " HorizontalAlignment="Left" Margin="531,48,0,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" FontWeight="Bold"/>
-        <TextBox Name="Height" HorizontalAlignment="Left" Height="29" Margin="615,132,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
-        <Label Content="H = " HorizontalAlignment="Left" Margin="531,132,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="-4.281,0.839"/>
-        <TextBox Name="Okrugl" HorizontalAlignment="Left" Height="30" Margin="670,175,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="88" TextChanged="TextBox_TextChanged" AutomationProperties.Name="AccuracyBox" RenderTransformOrigin="0.033,0.35"/>
-        <Label Content="Округление = " HorizontalAlignment="Left" Margin="531,175,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" RenderTransformOrigin="-1.543,-0.349"/>
-        <Button Content="Вычислить" HorizontalAlignment="Left" Height="40" Margin="615,210,0,0" VerticalAlignment="Top" Width="143" Click="Rasschet" Background="White" FontSize="14" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.51,-0.325"/>
-        <Label Content="S2= " HorizontalAlignment="Left" Margin="531,289,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic" FontSize="14"/>
-        <Label Content="S бок.= " HorizontalAlignment="Left" Margin="531,323,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
-        <Label Content="S1= " HorizontalAlignment="Left" Margin="531,255,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
-        <Label Content="V = " HorizontalAlignment="Left" Margin="531,393,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="-0.162,0.384"/>
-        <TextBox x:Name="Sboc" HorizontalAlignment="Left" Height="30" Margin="616,323,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
-        <TextBox x:Name="Stwo" HorizontalAlignment="Left" Height="29" Margin="616,289,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="142" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
-        <TextBox x:Name="Sone" HorizontalAlignment="Left" Height="29" Margin="615,255,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
-        <TextBox x:Name="Obem" HorizontalAlignment="Left" Height="29" Margin="616,393,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
+        <TextBox Name="Height" HorizontalAlignment="Left" Height="29" Margin="616,116,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
+        <Label Content="H = " HorizontalAlignment="Left" Margin="531,116,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="-4.281,0.839"/>
+        <TextBox Name="Okrugl" HorizontalAlignment="Left" Height="30" Margin="671,150,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="88" TextChanged="TextBox_TextChanged" AutomationProperties.Name="AccuracyBox" RenderTransformOrigin="0.033,0.35"/>
+        <Label Content="Округление = " HorizontalAlignment="Left" Margin="531,151,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" RenderTransformOrigin="-1.543,-0.349"/>
+        <Button Content="Вычислить" HorizontalAlignment="Left" Height="40" Margin="616,189,0,0" VerticalAlignment="Top" Width="143" Click="Rasschet" Background="White" FontSize="14" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.51,-0.325"/>
+        <Label Content="S2= " HorizontalAlignment="Left" Margin="531,274,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic" FontSize="14"/>
+        <Label Content="S бок.= " HorizontalAlignment="Left" Margin="531,308,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="S1= " HorizontalAlignment="Left" Margin="531,240,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="V = " HorizontalAlignment="Left" Margin="531,378,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="-0.162,0.384"/>
+        <TextBox x:Name="Sboc" HorizontalAlignment="Left" Height="30" Margin="616,308,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
+        <TextBox x:Name="Stwo" HorizontalAlignment="Left" Height="29" Margin="616,274,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
+        <TextBox x:Name="Sone" HorizontalAlignment="Left" Height="29" Margin="616,240,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
+        <TextBox x:Name="Obem" HorizontalAlignment="Left" Height="29" Margin="616,378,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
         <Image Source="https://konspekta.net/studopediaru/baza26/2630567641794.files/image036.jpg" Height="270" VerticalAlignment="Top" Margin="0,35,299,0"/>
-        <TextBox x:Name="RadiusV" HorizontalAlignment="Left" Height="29" Margin="615,91,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="RadiusBox"/>
-        <Label Content="R вер. = " HorizontalAlignment="Left" Margin="531,91,0,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" FontWeight="Bold"/>
-        <TextBox x:Name="Spoln" HorizontalAlignment="Left" Height="30" Margin="616,358,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
-        <Label Content="S полн. = " HorizontalAlignment="Left" Margin="531,358,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBox x:Name="RadiusV" HorizontalAlignment="Left" Height="29" Margin="615,82,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="RadiusBox"/>
+        <Label Content="R вер. = " HorizontalAlignment="Left" Margin="531,82,0,0" VerticalAlignment="Top" FontSize="14" FontStyle="Italic" FontWeight="Bold"/>
+        <TextBox x:Name="Spoln" HorizontalAlignment="Left" Height="30" Margin="616,343,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" AutomationProperties.Name="HeightBox"/>
+        <Label Content="S полн. = " HorizontalAlignment="Left" Margin="531,343,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
     </Grid>
 </Page>
