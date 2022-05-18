@@ -5,6 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Practicum_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="220_Виталев" Height="450" Width="800">
     <Frame Name="MainFrame" Background="White" NavigationUIVisibility="Hidden"/>
 </Window>
